@@ -16,6 +16,7 @@
 <img src="https://img.shields.io/github/repo-size/lcspaiva87/RocketShoes">
 <img src="https://img.shields.io/github/languages/count/lcspaiva87/RocketShoes">
 <img src="https://img.shields.io/github/followers/lcspaiva87?style=social">
+<img src="https://img.shields.io/github/forks/lcspaiva87/Podcastr-NLW-5?style=social">
 </p>
 
 <p align="center">
