@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-<img src="https://drive.google.com/drive/u/0/my-drive"  width="70%" height="70%">
+<img src="https://wakatime.com/badge/github/lcspaiva87/lcspaiva87.svg"  width="70%" height="70%">
 <img src="https://github.com/lcspaiva87/RocketShoes/blob/main/src/assets/images/error.png" width="70%" height="70%">  
 <img src="https://github.com/lcspaiva87/RocketShoes/blob/main/src/assets/images/card.png"  width="70%" height="70%">
 </p>
