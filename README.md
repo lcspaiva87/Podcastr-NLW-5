@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/github/languages/count/lcspaiva87/Podcastr-NLW-5">
 <img src="https://img.shields.io/github/followers/lcspaiva87?style=social">
 <img src="https://img.shields.io/github/forks/lcspaiva87/Podcastr-NLW-5?style=social">
-<img src="https://shields.io/category/version">
+<img src="https://img.shields.io/github/package-json/v/lcspaiva87/Podcastr-NLW-5">
 <img src="https://img.shields.io/github/languages/top/lcspaiva87/Podcastr-NLW-5">
 </p>
 
