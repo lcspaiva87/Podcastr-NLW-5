@@ -13,7 +13,6 @@
 
 
 <p align="center">
-<img src="https://wakatime.com/@lcspaiva87/projects/kkfolxyqpq">
 <img src="https://img.shields.io/david/dev/lcspaiva87/RocketShoes?style=flat-square">  
 <img src="https://img.shields.io/apm/l/github">
 <img src="https://img.shields.io/github/repo-size/lcspaiva87/RocketShoes">
@@ -22,9 +21,9 @@
 </p>
 
 <p align="center">
-<img src="https://wakatime.com/badge/github/lcspaiva87/lcspaiva87.svg"  width="70%" height="70%">
-<img src="https://github.com/lcspaiva87/RocketShoes/blob/main/src/assets/images/error.png" width="70%" height="70%">  
-<img src="https://github.com/lcspaiva87/RocketShoes/blob/main/src/assets/images/card.png"  width="70%" height="70%">
+<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/gif_.gif"  width="70%" height="70%">
+<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/img.png" width="70%" height="70%">  
+
 </p>
 
 
@@ -33,13 +32,9 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
-- [Redux](https://github.com/reduxjs/redux)
 - [Axios](https://github.com/axios/axios)
-- [Reactotron](https://github.com/infinitered/reactotron)
-- [Immer](https://github.com/immerjs/immer)
-- [Styled Components](https://github.com/styled-components/styled-components)
-- [Polished](https://github.com/styled-components/polished)
-- [React Icons](https://github.com/react-icons/react-icons)
+- [Sass](https://sass-lang.com/)
+- [NextJs](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## Como fazer funcionar em sua máquina
