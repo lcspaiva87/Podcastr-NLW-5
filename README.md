@@ -18,6 +18,7 @@
 <img src="https://img.shields.io/github/followers/lcspaiva87?style=social">
 <img src="https://img.shields.io/github/forks/lcspaiva87/Podcastr-NLW-5?style=social">
 <img src="https://img.shields.io/github/downloads/lcspaiva87/Podcastr-NLW-5/total">
+<img src="https://img.shields.io/github/languages/top/lcspaiva87/Podcastr-NLW-5">
 </p>
 
 <p align="center">
