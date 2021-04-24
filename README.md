@@ -4,11 +4,9 @@
 <img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/logo.svg">
 </p>
   
-  #This project was developed using the following technologies:
+  
 
-  Next.js
-  React
-  TypeScript
+
   
 
 
@@ -29,7 +27,7 @@
 
 ## :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+#This project was developed using the following technologies:
 
 - [React](https://reactjs.org)
 - [Axios](https://github.com/axios/axios)
@@ -41,10 +39,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ```sh
 Execute esse comando para instalatar todas as dependências
+$ git clone https://github.com/lcspaiva87/Podcastr-NLW-5.git && cd podcastr
+
+# Install the dependencies
 yarn 
 
 # start the json-server api
 yarn api:server
+
 # start project
 yarn start
 
