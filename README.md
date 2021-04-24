@@ -1,4 +1,4 @@
-# RocketShoes
+# Podcastr NLW#5
 
 <p align="center">
 <img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/logo.svg">
