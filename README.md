@@ -13,10 +13,11 @@
 <p align="center">
 <img src="https://img.shields.io/david/dev/lcspaiva87/RocketShoes?style=flat-square">  
 <img src="https://img.shields.io/apm/l/github">
-<img src="https://img.shields.io/github/repo-size/lcspaiva87/RocketShoes">
-<img src="https://img.shields.io/github/languages/count/lcspaiva87/RocketShoes">
+<img src="https://img.shields.io/github/repo-size/lcspaiva87/Podcastr-NLW-5">
+<img src="https://img.shields.io/github/languages/count/lcspaiva87/Podcastr-NLW-5">
 <img src="https://img.shields.io/github/followers/lcspaiva87?style=social">
 <img src="https://img.shields.io/github/forks/lcspaiva87/Podcastr-NLW-5?style=social">
+<img src="https://img.shields.io/github/downloads/lcspaiva87/Podcastr-NLW-5/total">
 </p>
 
 <p align="center">
