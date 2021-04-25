@@ -13,6 +13,7 @@ module.exports = withPlugins([
       // !! WARN !!
       ignoreBuildErrors: true,
     },
+
   },
   [withPWA, {
     pwa: {
