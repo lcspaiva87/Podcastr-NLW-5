@@ -5,19 +5,21 @@ import { Player } from '../components/Play';
 
 import styles from '../styles/app.module.scss'
 import { PlayerContextProvider } from '../context/PlayContex';
+import { ThemeDarkContexProvider } from '../context/ThemeDarkCOntex';
 
 function MyApp({ Component, pageProps }) {
   return (
-
-    <PlayerContextProvider>
-      <div className={styles.appWrapper}>
-      <main>
-        <Header />
-        <Component {...pageProps} />
-      </main>
-      <Player />
-    </div>
-    </PlayerContextProvider>
+    <ThemeDarkContexProvider>
+      <PlayerContextProvider>
+        <div className={styles.appWrapper}>
+          <main>
+            <Header />
+            <Component {...pageProps} />
+          </main>
+          <Player />
+        </div>
+      </PlayerContextProvider>
+    </ThemeDarkContexProvider>
 
   )
 }
