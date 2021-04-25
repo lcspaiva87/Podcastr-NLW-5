@@ -10,6 +10,7 @@ import { converteDurationToTimeString } from '../utils/convertDurationToTimeStri
 import { usePlayer } from '../context/PlayContex';
 
 import styles from './home.module.scss';
+import SEO from '../components/Seo';
 
 
 
@@ -37,6 +38,7 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
 
   return (
     <div className={styles.homepage}>
+       <SEO title="Home" description={'Olá eu sou a description'} />
       <Head>
         <title>Home | Podcastr</title>
       </Head>
