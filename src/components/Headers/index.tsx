@@ -1,5 +1,6 @@
 import format from 'date-fns/format';
 import ptBr from 'date-fns/locale/pt-BR';
+import Link from 'next/link';
 
 
 import { useTheme } from '../../context/ThemeContext';
@@ -14,7 +15,9 @@ export function Header() {
     return (
 
         <header className={styles.headerContainer}>
-            <img src="/logo.svg" alt="Logo Podcast" />
+            <Link href="/" >
+                <img className={styles.logo} src="/logo.svg" alt="Podcastr" />
+            </Link>
             <p>The best for you to hear, always</p>
 
             <span> {currentDate}</span>
@@ -23,7 +26,7 @@ export function Header() {
                 {isDarkMode
                     ? <img src="/half-moon.svg" alt="Tocar" />
                     : <img src="/sun.svg" alt="Trocar Tema" />
-                    
+
                 }
             </button>
         </header>
