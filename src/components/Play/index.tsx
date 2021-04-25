@@ -8,6 +8,7 @@ import styles from './styles.module.scss';
 import 'rc-slider/assets/index.css';
 import { usePlayer } from '../../context/PlayContex';
 import { converteDurationToTimeString } from '../../utils/convertDurationToTimeString';
+import SEO from '../Seo';
 
 export function Player() {
     const audioRef = useRef<HTMLAudioElement>(null);
@@ -59,7 +60,9 @@ export function Player() {
     const episode = episodeList[currentEpisodeIndex]
 
     return (
+       
         <div className={styles.playerContainer}>
+             <SEO title="Dashboard" description={'Olá eu sou a description'} />
             <header>
                 <img src="/playing.svg" alt="Tocando agora" />
                 <strong>Playing now </strong>
