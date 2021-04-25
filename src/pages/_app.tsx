@@ -5,11 +5,11 @@ import { Player } from '../components/Play';
 
 import styles from '../styles/app.module.scss'
 import { PlayerContextProvider } from '../context/PlayContex';
-import { ThemeDarkContexProvider } from '../context/ThemeDarkCOntex';
+import { ThemeContextProvider } from '../context/ThemeContext';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeDarkContexProvider>
+    <ThemeContextProvider>
       <PlayerContextProvider>
         <div className={styles.appWrapper}>
           <main>
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
           <Player />
         </div>
       </PlayerContextProvider>
-    </ThemeDarkContexProvider>
+    </ThemeContextProvider>
 
   )
 }

@@ -13,7 +13,7 @@ type ThemeContextProviderProps = {
   children: ReactNode;
 }
 
-export function ThemeDarkContexProvider({ children }: ThemeContextProviderProps) {
+export function ThemeContextProvider({ children }: ThemeContextProviderProps) {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
