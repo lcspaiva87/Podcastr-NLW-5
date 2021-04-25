@@ -1,7 +1,13 @@
 {
-    "name": "podcastrnext",
-    "short_name": "lcspaiva",
-   
+  "name": "Podcastr",
+  "short_name": "Lucas Paiva",
+  "description": "Veja todos o podcast Faladev em um só lugar",
+  "theme_color": "#4347FE",
+  "background_color": "#121214",
+  "display": "standalone",
+  "lang": "pt-BR",
+  "scope": "/",
+  "start_url": "/",
     "icons": [
       {
         "src": "../public/icon-128x128.png",
