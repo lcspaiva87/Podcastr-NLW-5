@@ -7,7 +7,7 @@
   "display": "standalone",
   "lang": "pt-BR",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "../",
     "icons": [
       {
         "src": "../public/icon-128x128.png",
