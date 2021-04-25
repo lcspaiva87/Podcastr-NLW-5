@@ -1,55 +1,55 @@
-# RocketShoes
+# Podcastr NLW#5
 
 <p align="center">
 <img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/logo.svg">
 </p>
   
-  #This project was developed using the following technologies:
+  
 
-  Next.js
-  React
-  TypeScript
+
   
 
 
 <p align="center">
-<img src="https://wakatime.com/@lcspaiva87/projects/kkfolxyqpq">
 <img src="https://img.shields.io/david/dev/lcspaiva87/RocketShoes?style=flat-square">  
 <img src="https://img.shields.io/apm/l/github">
-<img src="https://img.shields.io/github/repo-size/lcspaiva87/RocketShoes">
-<img src="https://img.shields.io/github/languages/count/lcspaiva87/RocketShoes">
+<img src="https://img.shields.io/github/repo-size/lcspaiva87/Podcastr-NLW-5">
+<img src="https://img.shields.io/github/languages/count/lcspaiva87/Podcastr-NLW-5">
 <img src="https://img.shields.io/github/followers/lcspaiva87?style=social">
+<img src="https://img.shields.io/github/forks/lcspaiva87/Podcastr-NLW-5?style=social">
+<img src="https://img.shields.io/github/package-json/v/lcspaiva87/Podcastr-NLW-5">
+<img src="https://img.shields.io/github/languages/top/lcspaiva87/Podcastr-NLW-5">
 </p>
 
 <p align="center">
-<img src="https://wakatime.com/badge/github/lcspaiva87/lcspaiva87.svg"  width="70%" height="70%">
-<img src="https://github.com/lcspaiva87/RocketShoes/blob/main/src/assets/images/error.png" width="70%" height="70%">  
-<img src="https://github.com/lcspaiva87/RocketShoes/blob/main/src/assets/images/card.png"  width="70%" height="70%">
+<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/gif_.gif"  width="70%" height="70%">
+<img src="https://github.com/lcspaiva87/Podcastr-NLW-5/blob/main/public/img.png" width="70%" height="70%">  
+
 </p>
 
 
 ## :rocket: Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+#This project was developed using the following technologies:
 
 - [React](https://reactjs.org)
-- [Redux](https://github.com/reduxjs/redux)
 - [Axios](https://github.com/axios/axios)
-- [Reactotron](https://github.com/infinitered/reactotron)
-- [Immer](https://github.com/immerjs/immer)
-- [Styled Components](https://github.com/styled-components/styled-components)
-- [Polished](https://github.com/styled-components/polished)
-- [React Icons](https://github.com/react-icons/react-icons)
+- [Sass](https://sass-lang.com/)
+- [NextJs](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## Como fazer funcionar em sua máquina
 
 ```sh
 Execute esse comando para instalatar todas as dependências
+$ git clone https://github.com/lcspaiva87/Podcastr-NLW-5.git && cd podcastr
+
+# Install the dependencies
 yarn 
 
 # start the json-server api
 yarn api:server
+
 # start project
 yarn start
 
