@@ -7,12 +7,7 @@ module.exports = withPlugins([
       domains: ['storage.googleapis.com']
     },
 
-    distDir: 'build',
-    future: { webpack5: true },
-    typescript: {
-      // !! WARN !!
-      ignoreBuildErrors: true,
-    },
+
 
   },
   [withPWA, {
