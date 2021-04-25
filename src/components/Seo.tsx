@@ -39,7 +39,7 @@ export default function SEO({
       <link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
       <link rel="icon" href="/favicon.png" />
-      <link rel="manifest" href="../../public/manifest.json" />
+      <link rel="manifest" href="/manifest.json" />
 
       <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
       <meta name="MobileOptimized" content="320" />
