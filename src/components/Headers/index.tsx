@@ -1,7 +1,9 @@
 import format from 'date-fns/format';
 import ptBr from 'date-fns/locale/pt-BR';
 
+
 import { useTheme } from '../../context/ThemeContext';
+
 import styles from './styles.module.scss'
 
 export function Header() {
