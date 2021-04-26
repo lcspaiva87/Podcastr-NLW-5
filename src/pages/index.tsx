@@ -91,7 +91,7 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
             {allEpisodes.map((episode, index) => {
               return (
                 <tr key={episode.id}>
-                  <td style={{ width: 72 }}>
+                  <td style={{ width: 72 }} className={styles.Img}>
                     <Image
                       width={120}
                       height={120}
@@ -101,15 +101,15 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
 
                     />
                   </td>
-                  <td>
+                  <td data-title="title">
                     <Link href={`/episodes/${episode.id}`}>
                       <a>{episode.title}</a>
                     </Link>
                   </td>
-                  <td>{episode.members}</td>
-                  <td style={{ width: 100 }}>{episode.publishedAt}</td>
-                  <td>{episode.durationAsString}</td>
-                  <td>
+                  <td className={styles.member}>{episode.members}</td>
+                  <td style={{ width: 100 }} data-title="tempo">{episode.publishedAt}</td>
+                  <td data-title="Duration">{episode.durationAsString}</td>
+                  <td data-title="play">
                     <button type="button" onClick={() => playList(episodeList, index + latesEpisodes.length)}>
                       <img src="/play-green.svg" alt="Tocar episódio" />
                     </button>

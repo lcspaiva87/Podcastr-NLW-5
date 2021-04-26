@@ -1,7 +1,9 @@
-.appWrapper{
-    display: flex;
-
-    main{
-        flex: 1;
-    }
+.appWrapper {
+  display: flex;
+  @media(max-device-width: 900px) {
+    display: grid;
+  }
+  main {
+    flex: 1;
+  }
 }
