@@ -163,11 +163,11 @@
       margin-left: -2rem;
     }
     ul {
-      display: block;
-      margin-left: -3rem;
+      display: flex;
+      flex-direction: column;
     }
     li {
-      margin: 1rem;
+      
       width: 23rem;
       
 
