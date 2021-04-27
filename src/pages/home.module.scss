@@ -171,6 +171,15 @@
       width: 23rem;
       a {
         font-size: 0.7rem;
+        
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
       }
     }
   }
@@ -181,16 +190,8 @@
     table {
       width: 100%;
       border-collapse: collapse;
-
-      th,
-      td {
-       
-        border-bottom: 1px solid red;
-      }
     }
 
-      
-    
     table td:first-child {
       display: flex;
       display: flex;
@@ -200,9 +201,9 @@
     table th,
     table td {
       border: 1px solid #0000000a;
-
-      box-shadow: 1px 1px 1px rgb(0 0 0 / 21%);
+      box-shadow: 0.2px 0.2px 0.2px 0.2px #0000003d;
     }
+
     table thead {
       display: none;
     }
