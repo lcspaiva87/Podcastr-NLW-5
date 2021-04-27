@@ -38,7 +38,7 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
 
   return (
     <div className={styles.homepage}>
-       <SEO title="Home" description={'Olá eu sou a description'} />
+      <SEO title="Home" description={'Olá eu sou a description'} />
       <Head>
         <title>Home | Podcastr</title>
       </Head>
@@ -74,6 +74,7 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
           })}
         </ul>
       </section>
+
       <section className={styles.allEpisodes}>
         <h2>Todos episódios</h2>
         <table cellSpacing={0}>
