@@ -137,6 +137,7 @@
           text-decoration: underline;
         }
       }
+     
       button {
         width: 2rem;
         height: 2rem;
@@ -205,6 +206,7 @@
   .allEpisodes {
     .date {
       font-size: 10px;
+      display: none;
     }
     table {
       width: 100%;

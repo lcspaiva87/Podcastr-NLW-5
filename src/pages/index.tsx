@@ -108,7 +108,7 @@ export default function Home({ latesEpisodes, allEpisodes }: HomeProps) {
                     </Link>
                   </td>
                   <td className={styles.member} data-label="Members">{episode.members}</td>
-                  <td data-label="Date" className={styles.date}>{episode.publishedAt}</td>
+                  <td style={{width: 100}}  data-label="Date" className={styles.date}>{episode.publishedAt}</td>
                   <td data-title="Duration" data-label="Duration">{episode.durationAsString}</td>
                   <td data-title="play" data-label="Play">
                     <button type="button" onClick={() => playList(episodeList, index + latesEpisodes.length)}>
