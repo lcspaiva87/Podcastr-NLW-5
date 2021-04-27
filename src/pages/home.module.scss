@@ -101,6 +101,7 @@
 }
 
 .allEpisodes {
+  
   padding-bottom: 2rem;
 
   table {
@@ -158,6 +159,12 @@
 }
 
 @media (max-device-width: 900px) {
+  .homepage {
+    padding: 0 4rem;
+    height: calc(100vh - 6.5rem);
+    overflow-x: hidden;
+    
+  }
   .latesEpisodes {
    
     ul {
